@@ -1,0 +1,40 @@
+.section3{
+    display:flex;
+    flex-direction: row;
+    
+}
+.section3_list{
+    li::marker {
+       color: #FFDB5C;
+      }
+}
+.section3_content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    margin-left: 10px;
+}
+
+.section3_button{
+    background-color: #FFDB5C;
+    color: black;
+    border: #FFDB5C;
+    border-radius: 5px;
+    width: 100px;
+    height: 40px;
+    font-weight: bold;
+}
+
+@media (max-width:768px) {
+    .section3{
+        display:flex;
+        flex-direction: column;
+        
+    }
+
+    .section3_img{
+        width: 100%;
+    }
+}

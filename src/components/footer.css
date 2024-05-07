@@ -1,0 +1,40 @@
+.footer_div{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+}
+.footer_logo{
+    width: 200px;
+}
+
+.footer_small_text{
+    color: #FFDB5C;
+}
+
+.footer_button_img{
+    display: flex;
+}
+
+.footer_button{
+    background-color: #FFDB5C;
+    color: black;
+    border: #FFDB5C;
+    border-radius: 5px;
+    height: 40px;
+    width: 150px;
+    font-weight: bold;
+}
+.footer_button_div{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+@media (max-width:768px) {
+    .footer_div{
+        display: flex;
+       flex-direction: column;
+       width: 100%;
+    }
+}

@@ -1,0 +1,17 @@
+.section4_images{
+    display: flex;
+    justify-content: center;
+    padding: 200px;
+    gap: 20px;
+    padding: 50px;
+}
+
+
+@media (max-width:768px) {
+    .section4_images{
+        display: grid;
+        grid-template-columns: 200px,200px;
+        grid-template-rows: 200px,200px;
+        column-gap: 20px;
+        row-gap: 20px;
+}}
