@@ -6,7 +6,7 @@ function Section2() {
   return (
     <div className='Section2'>
         <div className='section2_img'>
-        <img className='section2_img' src={section2_img}/>
+        <img className='section2_img' src={section2_img} alt=''/>
         </div>
        <div className='section2_content'>
       <h2 className='section2_heading'>

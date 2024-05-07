@@ -1,5 +1,5 @@
 import React from 'react'
-import { Container } from 'react-bootstrap';
+
 import section3_img from '../assets/images/SpecialPlatform.png';
 import './section3.css';
 
