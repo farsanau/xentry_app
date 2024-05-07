@@ -1,6 +1,7 @@
+import React  from 'react';
+
 import './navbar.css';
 import logo from "../assets/images/logo-dark.png";
-
 
 function Navbar() {
     return(
