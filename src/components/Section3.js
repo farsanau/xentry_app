@@ -25,7 +25,7 @@ Xentrybook stands out as an unparalleled time management application designed to
     </button>
 </div>
 <div className='section3_img'>
-<img src={section3_img} alt=''/>
+<img className='section3_img' src={section3_img} alt=''/>
 </div>
 
         </div>

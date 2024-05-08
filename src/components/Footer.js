@@ -11,11 +11,13 @@ import footer_button_img2 from '../assets/images/app-store-google-play-seeklogo-
 function Footer() {
   return (
     <div className='footer_div'>
+      
         <div className='footer_div1'>
 <img className='footer_logo' src={footer_logo} alt=''/>
     <p>website</p>
     <p>mail id</p>
         </div>
+
         <div className='footer_div2'>
            <p className='footer_small_text'>usefull links</p> 
            <p>App Features</p>
@@ -23,13 +25,15 @@ function Footer() {
            <p>Blog posts</p>
            <p>Pricing plans</p>
         </div>
-        <div>
+
+        <div className='footer_div3'>
             <p className='footer_small_text'>Product help</p>
             <p>Privacy policy</p>
             <p>Terms & conditions</p>
             <p>Refund and Cancellation</p>
             <p>Support</p>
         </div>
+
         <div className='footer_button_div'>
            <p className='footer_small_text'>download app</p>
            <div className='footer_button_img'>
@@ -38,6 +42,7 @@ function Footer() {
            </div>
            <button className='footer_button'>Get Free Trial</button>
         </div>
+
     </div>
   )
 }

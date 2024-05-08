@@ -29,4 +29,18 @@
    
 }
 @media (max-width:768px) {
+    .Header-Box2{
+        display: none;
+       
+    }
+    .navbar_button{
+         display: none;   
+    }
+    .navbar{
+        width:fit-content;
+    }
+}
+
+@media (max-width:560px) {
+    
 }
